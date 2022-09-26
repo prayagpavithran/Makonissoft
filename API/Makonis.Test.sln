@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Makonis.Test.API", "Makonis.Test.API\Makonis.Test.API.csproj", "{448474D1-0658-408E-A559-6D2695A60829}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Makonis.Test.Library", "Makonis.Test.Library\Makonis.Test.Library.csproj", "{30DDAD71-A31D-43A9-A5F4-9A2F3362CBDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{448474D1-0658-408E-A559-6D2695A60829}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{448474D1-0658-408E-A559-6D2695A60829}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{448474D1-0658-408E-A559-6D2695A60829}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{448474D1-0658-408E-A559-6D2695A60829}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30DDAD71-A31D-43A9-A5F4-9A2F3362CBDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30DDAD71-A31D-43A9-A5F4-9A2F3362CBDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30DDAD71-A31D-43A9-A5F4-9A2F3362CBDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30DDAD71-A31D-43A9-A5F4-9A2F3362CBDD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D35060EE-61BC-4062-B58A-3B2EEBD3EF47}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,17 @@
+<h2>Create Person</h2>
+<form [formGroup]="personForm" (ngSubmit)="onPersonSave()" id="frmPersonCreation">
+
+    <div>
+      <input type="text" formControlName="firstName" id="txtFirstName" maxlength="100"
+        placeholder="Enter Firstname">
+    </div>
+    <div style="margin: 20px;"></div>
+    <div>
+        <input type="text" formControlName="lastName" id="txtLastName" maxlength="100"
+            placeholder="Enter Lastname">
+    </div>
+    <div style="margin: 20px;"></div>
+    
+    <button type="submit" class="primary-btn" [disabled]="!personForm.valid" id="btnPersonCreate"> Save </button>
+</form>
+
